@@ -1,29 +1,10 @@
-# Arduino Blink PureC
-
-This is the source code of my blog article: https://www.tderflinger.com/en/arduino-blinking-led-pure-c
-
-![Arduino Uno Blink LED](./BlinkLed.png)
-
-This is an Arduino sketch implemented as pure C.
-
-For this to compile and load to the Arduino Uno you need
-the AVR C compiler and Avrdude.
-
 ## Installation
 
-Under Linux install the toolchain:
-
-```bash
 sudo apt-get update && sudo apt-get install gcc-avr binutils-avr gdb-avr avr-libc avrdude make
-```
 
 ## Compiling
 
-To compile the led program, run make
-
-```bash
 make
-```
 
 ## Deploying to Arduino Uno
 
